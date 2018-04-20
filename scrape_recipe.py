@@ -44,6 +44,15 @@ food_list = ['pizza dinner', 'pasta dinner', 'burger dinner',
  'steak dinner', 'cupcake dessert', 'salmon dinner', 'tiramisu dessert']
 foods_l = ["pizza","pasta","burger", "steak","salmon","cupcake","tiramisu"]
 
+class Recipe:
+    def __init(self, recipe_dict, foods_list):
+        self.recipe = {}
+        for x in foods_list:
+            single = get_recipes(x)
+            self.recipe.update(single)
+        self.foods = foods_list
+
+
 def get_recipes(string):
     baseurl = 'https://www.allrecipes.com/search/results/'
     x = string.split()[0]
