@@ -45,7 +45,7 @@ food_list = ['pizza dinner', 'pasta dinner', 'burger dinner',
 foods_l = ["pizza","pasta","burger", "steak","salmon","cupcake","tiramisu"]
 
 class Recipe:
-    def __init(self, recipe_dict, foods_list):
+    def __init__(self, recipe_dict, foods_list):
         self.recipe = {}
         for x in foods_list:
             single = get_recipes(x)
