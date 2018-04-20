@@ -15,7 +15,7 @@ nutrition data. The CSV files are then loaded into two separate tables in the da
 an interactive_prompt function is run. This function asks the user for their input and saves the user's input in a list. This list 
 of numbers (user choices) will then be used to grab select data from the database as well as create graphs and ingredient lists in plotly. 
 
-- User guide:, including how to run the program and how to choose presentation options.
+- User guide: including how to run the program and how to choose presentation options.
 To run this program, first pull all data from github. Once the data is pulled, create a virtual environment. Because the home directory
 on my computer has a space in it, I use /tmp in my virtualenv path. So to begin after the files are pulled from github, create a virtual 
 environment and install the requirements.txt to be able to use all the modules I have included. Once all the modules are installed, the user
