@@ -1,5 +1,5 @@
 
-final project for si206
+Recipe Generator:
 - Data sources used:
 To gather my data I crawled through and scraped the allrecipes.com website. I stored the scraped data from this website in two CSV files.
 recipe.CSV holds all the data for the ingredients in each recipe and time_cals.CSV holds all the nutrition facts for each recipe. To access
